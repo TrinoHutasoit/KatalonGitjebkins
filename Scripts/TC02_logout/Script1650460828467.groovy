@@ -17,15 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://www.saucedemo.com/')
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('login/username'), 'standard_user')
-
-WebUI.setEncryptedText(findTestObject('login/passwoed'), 'qcu24s4901FyWDTwXGr6XA==')
-
-WebUI.click(findTestObject('login/login'))
-
-WebUI.closeBrowser()
-
